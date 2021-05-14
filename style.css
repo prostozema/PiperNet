@@ -1,22 +1,27 @@
 body {
     margin: 0 auto;
-    background-color: rgba(70, 70, 146, 0.384);
     font-family: Roboto, sans-serif;
-    border: 1px solid chartreuse;
 }
 header {
     margin: 0 auto;
     width: 100%;
     position: fixed;
     display: inline-block;
+    text-align: center;
     background-color: #007765;
     border: 1px solid yellow;
 }
-
+.header-logo {
+    display: inline-block;
+    text-align: center;
+}
 .navi-bar {
     display: inline-block;
     margin-left: 502px;
     border: 1px solid black;
+    color: white;
+    font-weight: 500;
+    font-size: 24px;
 }
 .content {
     margin: 0 auto;
@@ -42,6 +47,11 @@ h2 {
     padding-top: 48px;
     
 }
+.the-problem {
+    background-color: #EEEEEE;
+    font-size: 32px;
+    font-weight: 400;
+}
 .hero {
     color: #ffffff;
     text-align: center;
@@ -56,8 +66,15 @@ h2 {
     padding: 128px 50px 127px 50px;
 
 }
+.PPC {
+    font-size: 32px;
+    font-weight: 400;
+}
 .PPC-Logo {
     width: 115px;
+    display: inline-block;
+}
+.logo-text {
     display: inline-block;
 }
 .team {
@@ -87,13 +104,17 @@ h2 {
     text-align: center;
 }
 .footer {
-    font-family: Roboto, sans-serif;
+    text-align: center;
+    margin: auto;
+    background-color: #333333;
+    padding-top: 50px;
+    padding-bottom: 62px;
+}
+.footer-text {
     font-size: 18px;
     font-weight: 400;
-    font-style: normal;
-    text-align: center;
     width: 540px;
     margin: auto;
+    font-style: normal;
     color: white;
-    background-color: #333333;
 }
