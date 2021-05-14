@@ -56,3 +56,44 @@ h2 {
     padding: 128px 50px 127px 50px;
 
 }
+.PPC-Logo {
+    width: 115px;
+    display: inline-block;
+}
+.team {
+    background-color: #EEEEEE;
+    text-align: center;
+}
+.card {
+    display: inline-block;
+    margin: 15px;
+    border: 1px solid red;
+}
+
+.worker-photo {
+    padding:  24px 91px 12px;
+}
+.worker-name {
+    color: #007765;
+    font-weight: 700;
+    font-size: 24px;
+    text-align: center;
+}
+.worker-position {
+    color: #000;
+    font-weight: 400;
+    font-size: 18px;
+    font-style: italic;
+    text-align: center;
+}
+.footer {
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    width: 540px;
+    margin: auto;
+    color: white;
+    background-color: #333333;
+}
