@@ -1,24 +1,23 @@
-body {
-    margin: 0 auto;
-    font-family: Roboto, sans-serif;
-}
 header {
-    margin: 0 auto;
+    margin: 0;
     width: 100%;
     position: fixed;
-    display: inline-block;
     text-align: center;
     background-color: #007765;
-    border: 1px solid yellow;
 }
+body {
+    margin: 0;
+    font-family: Roboto, sans-serif;
+    background-color: #EEEEEE;
+}
+
 .header-logo {
     display: inline-block;
     text-align: center;
 }
-.navi-bar {
+.nav-bar {
     display: inline-block;
     margin-left: 502px;
-    border: 1px solid black;
     color: white;
     font-weight: 500;
     font-size: 24px;
@@ -27,7 +26,6 @@ header {
     margin: 0 auto;
     width: 1219px;
     padding: 0 55px;
-    border: 1px solid red;
 }
 .jumbotron {
     color: #ffffff;
@@ -39,16 +37,16 @@ header {
 .jumbotron-text {
     font-size: 72px;
     padding: 160px 0;
+    margin: 0%;
 }
 h2 {
     text-align: center;
     font-size: 64px;
     color: #007765;
-    padding-top: 48px;
+    margin: 0%;
     
 }
 .the-problem {
-    background-color: #EEEEEE;
     font-size: 32px;
     font-weight: 400;
 }
@@ -67,6 +65,7 @@ h2 {
 
 }
 .PPC {
+    background-color: #ffffff;
     font-size: 32px;
     font-weight: 400;
 }
@@ -78,13 +77,11 @@ h2 {
     display: inline-block;
 }
 .team {
-    background-color: #EEEEEE;
     text-align: center;
 }
 .card {
     display: inline-block;
     margin: 15px;
-    border: 1px solid red;
 }
 
 .worker-photo {
