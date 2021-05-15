@@ -2,25 +2,32 @@ header {
     margin: 0;
     width: 100%;
     position: fixed;
-    text-align: center;
     background-color: #007765;
+    top: 0%;
+    display: inline;
 }
 body {
-    margin: 0;
+    margin: 84px 0 0 0;
     font-family: Roboto, sans-serif;
     background-color: #EEEEEE;
 }
 
 .header-logo {
-    display: inline-block;
-    text-align: center;
+    margin: 20px 0 19px;
+    float: left;
+}
+.header-logo img {
+    width: 184px;
 }
 .nav-bar {
-    display: inline-block;
-    margin-left: 502px;
+    margin: 28px 0 26px;
+    float: right;
     color: white;
     font-weight: 500;
     font-size: 24px;
+}
+.nav-bar a {
+    border-right: white;
 }
 .content {
     margin: 0 auto;
@@ -71,10 +78,11 @@ h2 {
 }
 .PPC-Logo {
     width: 115px;
-    display: inline-block;
+    float: left;
+    margin-right: 48px;
 }
 .logo-text {
-    display: inline-block;
+    margin: 0%;
 }
 .team {
     text-align: center;
@@ -86,6 +94,7 @@ h2 {
 
 .worker-photo {
     padding:  24px 91px 12px;
+    width: 168px;
 }
 .worker-name {
     color: #007765;
